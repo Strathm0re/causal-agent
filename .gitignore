@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Quantum chemistry artifacts
+*.chk
+*.fchk
+*.rwf
+*.int
+*.dkk
+*.scr
+*.tmp
+*.out.tmp
+slurm-*.out
+*.log.tmp
+
+# Data (large raw archives; keep curated subsets via LFS or explicit commits)
+data/raw/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
